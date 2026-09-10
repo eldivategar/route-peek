@@ -1,0 +1,110 @@
+[
+  {
+    "id": "fiber:POST:/api/auth/login:internal/routes/auth.go:11",
+    "method": "POST",
+    "path": "/api/auth/login",
+    "framework": "fiber",
+    "source": {
+      "file": "internal/routes/auth.go",
+      "line": 11,
+      "column": 2
+    },
+    "confidence": "high"
+  },
+  {
+    "id": "fiber:GET:/api/auth/profile:internal/routes/auth.go:13",
+    "method": "GET",
+    "path": "/api/auth/profile",
+    "framework": "fiber",
+    "source": {
+      "file": "internal/routes/auth.go",
+      "line": 13,
+      "column": 2
+    },
+    "confidence": "high"
+  },
+  {
+    "id": "fiber:POST:/api/auth/register:internal/routes/auth.go:12",
+    "method": "POST",
+    "path": "/api/auth/register",
+    "framework": "fiber",
+    "source": {
+      "file": "internal/routes/auth.go",
+      "line": 12,
+      "column": 2
+    },
+    "confidence": "high"
+  },
+  {
+    "id": "fiber:GET:/api/users:internal/routes/users.go:11",
+    "method": "GET",
+    "path": "/api/users",
+    "framework": "fiber",
+    "source": {
+      "file": "internal/routes/users.go",
+      "line": 11,
+      "column": 2
+    },
+    "confidence": "high"
+  },
+  {
+    "id": "fiber:POST:/api/users:internal/routes/users.go:12",
+    "method": "POST",
+    "path": "/api/users",
+    "framework": "fiber",
+    "source": {
+      "file": "internal/routes/users.go",
+      "line": 12,
+      "column": 2
+    },
+    "confidence": "high"
+  },
+  {
+    "id": "fiber:DELETE:/api/users/:id:internal/routes/users.go:15",
+    "method": "DELETE",
+    "path": "/api/users/:id",
+    "framework": "fiber",
+    "source": {
+      "file": "internal/routes/users.go",
+      "line": 15,
+      "column": 2
+    },
+    "confidence": "high"
+  },
+  {
+    "id": "fiber:GET:/api/users/:id:internal/routes/users.go:13",
+    "method": "GET",
+    "path": "/api/users/:id",
+    "framework": "fiber",
+    "source": {
+      "file": "internal/routes/users.go",
+      "line": 13,
+      "column": 2
+    },
+    "confidence": "high"
+  },
+  {
+    "id": "fiber:PUT:/api/users/:id:internal/routes/users.go:14",
+    "method": "PUT",
+    "path": "/api/users/:id",
+    "framework": "fiber",
+    "source": {
+      "file": "internal/routes/users.go",
+      "line": 14,
+      "column": 2
+    },
+    "confidence": "high"
+  },
+  {
+    "id": "fiber:GET:/health:internal/routes/health.go:10",
+    "method": "GET",
+    "path": "/health",
+    "framework": "fiber",
+    "source": {
+      "file": "internal/routes/health.go",
+      "line": 10,
+      "column": 2
+    },
+    "confidence": "high"
+  }
+]

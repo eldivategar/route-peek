@@ -1,0 +1,6 @@
+{
+  "name": "fastify-v5-all",
+  "dependencies": {
+    "fastify": "^5.0.0"
+  }
+}

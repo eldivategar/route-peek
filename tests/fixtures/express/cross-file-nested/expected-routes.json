@@ -1,0 +1,11 @@
+[
+  {
+    "id": "express:GET:/api/users/:id:routes/users.ts:6",
+    "method": "GET",
+    "path": "/api/users/:id",
+    "framework": "express",
+    "confidence": "high",
+    "file": "routes/users.ts",
+    "line": 6
+  }
+]

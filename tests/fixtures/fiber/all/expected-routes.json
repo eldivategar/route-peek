@@ -1,0 +1,98 @@
+[
+  {
+    "id": "fiber:DELETE:/all-endpoint:main.go:10",
+    "framework": "fiber",
+    "method": "DELETE",
+    "path": "/all-endpoint",
+    "confidence": "high",
+    "source": {
+      "file": "main.go",
+      "line": 10,
+      "column": 2
+    }
+  },
+  {
+    "id": "fiber:GET:/all-endpoint:main.go:10",
+    "framework": "fiber",
+    "method": "GET",
+    "path": "/all-endpoint",
+    "confidence": "high",
+    "source": {
+      "file": "main.go",
+      "line": 10,
+      "column": 2
+    }
+  },
+  {
+    "id": "fiber:HEAD:/all-endpoint:main.go:10",
+    "framework": "fiber",
+    "method": "HEAD",
+    "path": "/all-endpoint",
+    "confidence": "high",
+    "source": {
+      "file": "main.go",
+      "line": 10,
+      "column": 2
+    }
+  },
+  {
+    "id": "fiber:OPTIONS:/all-endpoint:main.go:10",
+    "framework": "fiber",
+    "method": "OPTIONS",
+    "path": "/all-endpoint",
+    "confidence": "high",
+    "source": {
+      "file": "main.go",
+      "line": 10,
+      "column": 2
+    }
+  },
+  {
+    "id": "fiber:PATCH:/all-endpoint:main.go:10",
+    "framework": "fiber",
+    "method": "PATCH",
+    "path": "/all-endpoint",
+    "confidence": "high",
+    "source": {
+      "file": "main.go",
+      "line": 10,
+      "column": 2
+    }
+  },
+  {
+    "id": "fiber:POST:/all-endpoint:main.go:10",
+    "framework": "fiber",
+    "method": "POST",
+    "path": "/all-endpoint",
+    "confidence": "high",
+    "source": {
+      "file": "main.go",
+      "line": 10,
+      "column": 2
+    }
+  },
+  {
+    "id": "fiber:PUT:/all-endpoint:main.go:10",
+    "framework": "fiber",
+    "method": "PUT",
+    "path": "/all-endpoint",
+    "confidence": "high",
+    "source": {
+      "file": "main.go",
+      "line": 10,
+      "column": 2
+    }
+  },
+  {
+    "id": "fiber:TRACE:/all-endpoint:main.go:10",
+    "framework": "fiber",
+    "method": "TRACE",
+    "path": "/all-endpoint",
+    "confidence": "high",
+    "source": {
+      "file": "main.go",
+      "line": 10,
+      "column": 2
+    }
+  }
+]

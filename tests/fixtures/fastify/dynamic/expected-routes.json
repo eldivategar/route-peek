@@ -1,0 +1,20 @@
+[
+  {
+    "id": "fastify:GET:/<dynamic>:app.ts:9",
+    "method": "GET",
+    "path": "/<dynamic>",
+    "framework": "fastify",
+    "confidence": "low",
+    "file": "app.ts",
+    "line": 9
+  },
+  {
+    "id": "fastify:POST:/api/<dynamic>:app.ts:10",
+    "method": "POST",
+    "path": "/api/<dynamic>",
+    "framework": "fastify",
+    "confidence": "low",
+    "file": "app.ts",
+    "line": 10
+  }
+]

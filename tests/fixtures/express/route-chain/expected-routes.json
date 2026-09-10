@@ -1,0 +1,20 @@
+[
+  {
+    "id": "express:GET:/users:app.ts:7",
+    "method": "GET",
+    "path": "/users",
+    "framework": "express",
+    "confidence": "high",
+    "file": "app.ts",
+    "line": 7
+  },
+  {
+    "id": "express:POST:/users:app.ts:8",
+    "method": "POST",
+    "path": "/users",
+    "framework": "express",
+    "confidence": "high",
+    "file": "app.ts",
+    "line": 8
+  }
+]

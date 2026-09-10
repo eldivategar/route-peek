@@ -1,0 +1,56 @@
+[
+  {
+    "id": "express:GET:/users:app.ts:6",
+    "method": "GET",
+    "path": "/users",
+    "framework": "express",
+    "confidence": "high",
+    "file": "app.ts",
+    "line": 6
+  },
+  {
+    "id": "express:HEAD:/users:app.ts:11",
+    "method": "HEAD",
+    "path": "/users",
+    "framework": "express",
+    "confidence": "high",
+    "file": "app.ts",
+    "line": 11
+  },
+  {
+    "id": "express:OPTIONS:/users:app.ts:10",
+    "method": "OPTIONS",
+    "path": "/users",
+    "framework": "express",
+    "confidence": "high",
+    "file": "app.ts",
+    "line": 10
+  },
+  {
+    "id": "express:POST:/users:app.ts:7",
+    "method": "POST",
+    "path": "/users",
+    "framework": "express",
+    "confidence": "high",
+    "file": "app.ts",
+    "line": 7
+  },
+  {
+    "id": "express:DELETE:/users/:id:app.ts:9",
+    "method": "DELETE",
+    "path": "/users/:id",
+    "framework": "express",
+    "confidence": "high",
+    "file": "app.ts",
+    "line": 9
+  },
+  {
+    "id": "express:PUT:/users/:id:app.ts:8",
+    "method": "PUT",
+    "path": "/users/:id",
+    "framework": "express",
+    "confidence": "high",
+    "file": "app.ts",
+    "line": 8
+  }
+]

@@ -1,0 +1,78 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Tag name to release (e.g. v0.1.0)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    name: Build, Validate & Create GitHub Release
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run ESLint
+        run: npm run lint
+
+      - name: Run TypeScript typecheck
+        run: npm run typecheck
+
+      - name: Run Unit & Integration tests
+        run: npm test
+
+      - name: Build production bundle
+        run: npm run build
+
+      - name: Package & Validate VSIX
+        run: npm run package:validate
+
+      - name: Extract Release Notes from CHANGELOG
+        id: extract_notes
+        run: |
+          VERSION=$(node -p "require('./package.json').version")
+          echo "Extracting release notes for version $VERSION..."
+          node -e '
+            const fs = require("fs");
+            const changelog = fs.readFileSync("CHANGELOG.md", "utf8");
+            const version = require("./package.json").version;
+            const regex = new RegExp(`## \\\\\\[${version}\\\\\\][\\s\\S]*?(?=\\n## \\\\\\[|$)`);
+            const match = changelog.match(regex);
+            if (match) {
+              fs.writeFileSync("RELEASE_NOTES.md", match[0].trim());
+            } else {
+              fs.writeFileSync("RELEASE_NOTES.md", `Release v${version}`);
+            }
+          '
+          cat RELEASE_NOTES.md
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          body_path: RELEASE_NOTES.md
+          files: route-peek-*.vsix
+          draft: false
+          prerelease: false
+          generate_release_notes: true

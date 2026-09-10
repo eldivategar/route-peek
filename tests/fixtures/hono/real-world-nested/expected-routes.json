@@ -1,0 +1,65 @@
+[
+  {
+    "id": "hono:GET:/:src/index.ts:7",
+    "method": "GET",
+    "path": "/",
+    "framework": "hono",
+    "confidence": "high",
+    "file": "src/index.ts",
+    "line": 7
+  },
+  {
+    "id": "hono:GET:/api/v1/docs:src/routes/api.ts:7",
+    "method": "GET",
+    "path": "/api/v1/docs",
+    "framework": "hono",
+    "confidence": "high",
+    "file": "src/routes/api.ts",
+    "line": 7
+  },
+  {
+    "id": "hono:GET:/api/v1/health:src/routes/api.ts:8",
+    "method": "GET",
+    "path": "/api/v1/health",
+    "framework": "hono",
+    "confidence": "high",
+    "file": "src/routes/api.ts",
+    "line": 8
+  },
+  {
+    "id": "hono:POST:/api/v1/auth/login:src/routes/auth.route.ts:5",
+    "method": "POST",
+    "path": "/api/v1/auth/login",
+    "framework": "hono",
+    "confidence": "high",
+    "file": "src/routes/auth.route.ts",
+    "line": 5
+  },
+  {
+    "id": "hono:GET:/api/v1/auth/profile:src/routes/auth.route.ts:6",
+    "method": "GET",
+    "path": "/api/v1/auth/profile",
+    "framework": "hono",
+    "confidence": "high",
+    "file": "src/routes/auth.route.ts",
+    "line": 6
+  },
+  {
+    "id": "hono:POST:/api/v1/diagnose:src/routes/diagnose.route.ts:5",
+    "method": "POST",
+    "path": "/api/v1/diagnose",
+    "framework": "hono",
+    "confidence": "high",
+    "file": "src/routes/diagnose.route.ts",
+    "line": 5
+  },
+  {
+    "id": "hono:GET:/api/v1/diagnose/:id:src/routes/diagnose.route.ts:6",
+    "method": "GET",
+    "path": "/api/v1/diagnose/:id",
+    "framework": "hono",
+    "confidence": "high",
+    "file": "src/routes/diagnose.route.ts",
+    "line": 6
+  }
+]

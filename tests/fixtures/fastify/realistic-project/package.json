@@ -1,0 +1,6 @@
+{
+  "name": "fastify-realistic-project",
+  "dependencies": {
+    "fastify": "^4.20.0"
+  }
+}

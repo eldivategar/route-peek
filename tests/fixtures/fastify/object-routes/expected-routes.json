@@ -1,0 +1,47 @@
+[
+  {
+    "id": "fastify:GET:/batch:src/index.ts:13",
+    "method": "GET",
+    "path": "/batch",
+    "framework": "fastify",
+    "confidence": "high",
+    "file": "src/index.ts",
+    "line": 13
+  },
+  {
+    "id": "fastify:POST:/batch:src/index.ts:13",
+    "method": "POST",
+    "path": "/batch",
+    "framework": "fastify",
+    "confidence": "high",
+    "file": "src/index.ts",
+    "line": 13
+  },
+  {
+    "id": "fastify:DELETE:/items/:id:src/index.ts:21",
+    "method": "DELETE",
+    "path": "/items/:id",
+    "framework": "fastify",
+    "confidence": "high",
+    "file": "src/index.ts",
+    "line": 21
+  },
+  {
+    "id": "fastify:GET:/items:src/index.ts:5",
+    "method": "GET",
+    "path": "/items",
+    "framework": "fastify",
+    "confidence": "high",
+    "file": "src/index.ts",
+    "line": 5
+  },
+  {
+    "id": "fastify:PATCH:/items/:id:src/index.ts:29",
+    "method": "PATCH",
+    "path": "/items/:id",
+    "framework": "fastify",
+    "confidence": "high",
+    "file": "src/index.ts",
+    "line": 29
+  }
+]

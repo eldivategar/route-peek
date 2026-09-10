@@ -1,0 +1,6 @@
+{
+  "name": "hono-shadowing",
+  "dependencies": {
+    "hono": "^4.0.0"
+  }
+}

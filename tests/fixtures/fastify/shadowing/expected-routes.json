@@ -1,0 +1,11 @@
+[
+  {
+    "id": "fastify:GET:/valid-fastify:app.ts:4",
+    "method": "GET",
+    "path": "/valid-fastify",
+    "framework": "fastify",
+    "confidence": "high",
+    "file": "app.ts",
+    "line": 4
+  }
+]

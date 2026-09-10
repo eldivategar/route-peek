@@ -1,0 +1,20 @@
+[
+  {
+    "id": "express:POST:/<dynamic>:app.ts:12",
+    "method": "POST",
+    "path": "/<dynamic>",
+    "framework": "express",
+    "confidence": "low",
+    "file": "app.ts",
+    "line": 12
+  },
+  {
+    "id": "express:GET:/api/<dynamic>:app.ts:11",
+    "method": "GET",
+    "path": "/api/<dynamic>",
+    "framework": "express",
+    "confidence": "low",
+    "file": "app.ts",
+    "line": 11
+  }
+]

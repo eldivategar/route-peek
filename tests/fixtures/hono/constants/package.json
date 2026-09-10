@@ -1,0 +1,6 @@
+{
+  "name": "hono-constants",
+  "dependencies": {
+    "hono": "^4.0.0"
+  }
+}

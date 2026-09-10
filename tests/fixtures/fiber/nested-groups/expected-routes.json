@@ -1,0 +1,14 @@
+[
+  {
+    "id": "fiber:GET:/api/v1/users:main.go:12",
+    "framework": "fiber",
+    "method": "GET",
+    "path": "/api/v1/users",
+    "confidence": "high",
+    "source": {
+      "file": "main.go",
+      "line": 12,
+      "column": 2
+    }
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "fastify:POST:/api/v1/users:src/index.ts:7",
+    "method": "POST",
+    "path": "/api/v1/users",
+    "framework": "fastify",
+    "confidence": "high",
+    "file": "src/index.ts",
+    "line": 7
+  },
+  {
+    "id": "fastify:GET:/api/v1/users/:id:src/index.ts:6",
+    "method": "GET",
+    "path": "/api/v1/users/:id",
+    "framework": "fastify",
+    "confidence": "high",
+    "file": "src/index.ts",
+    "line": 6
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "hono:DELETE:/api/users/:id:src/routes/users.ts:9",
+    "method": "DELETE",
+    "path": "/api/users/:id",
+    "framework": "hono",
+    "confidence": "high",
+    "file": "src/routes/users.ts",
+    "line": 9
+  },
+  {
+    "id": "hono:GET:/api/auth/profile:src/routes/auth.ts:8",
+    "method": "GET",
+    "path": "/api/auth/profile",
+    "framework": "hono",
+    "confidence": "high",
+    "file": "src/routes/auth.ts",
+    "line": 8
+  },
+  {
+    "id": "hono:GET:/api/users:src/routes/users.ts:6",
+    "method": "GET",
+    "path": "/api/users",
+    "framework": "hono",
+    "confidence": "high",
+    "file": "src/routes/users.ts",
+    "line": 6
+  },
+  {
+    "id": "hono:GET:/api/users/:id:src/routes/users.ts:8",
+    "method": "GET",
+    "path": "/api/users/:id",
+    "framework": "hono",
+    "confidence": "high",
+    "file": "src/routes/users.ts",
+    "line": 8
+  },
+  {
+    "id": "hono:POST:/api/auth/login:src/routes/auth.ts:6",
+    "method": "POST",
+    "path": "/api/auth/login",
+    "framework": "hono",
+    "confidence": "high",
+    "file": "src/routes/auth.ts",
+    "line": 6
+  },
+  {
+    "id": "hono:POST:/api/auth/register:src/routes/auth.ts:7",
+    "method": "POST",
+    "path": "/api/auth/register",
+    "framework": "hono",
+    "confidence": "high",
+    "file": "src/routes/auth.ts",
+    "line": 7
+  },
+  {
+    "id": "hono:POST:/api/users:src/routes/users.ts:7",
+    "method": "POST",
+    "path": "/api/users",
+    "framework": "hono",
+    "confidence": "high",
+    "file": "src/routes/users.ts",
+    "line": 7
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "id": "express:GET:/health:app.ts:9",
+    "method": "GET",
+    "path": "/health",
+    "framework": "express",
+    "confidence": "high",
+    "file": "app.ts",
+    "line": 9
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "fiber:GET:/api/sub/ping:main.go:11",
+    "framework": "fiber",
+    "method": "GET",
+    "path": "/api/sub/ping",
+    "confidence": "high",
+    "source": {
+      "file": "main.go",
+      "line": 11,
+      "column": 2
+    }
+  }
+]

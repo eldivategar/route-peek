@@ -2,31 +2,168 @@
   "name": "route-peek",
   "displayName": "Route Peek",
   "description": "Navigate and understand every API endpoint in your codebase — without running your application.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "publisher": "eldivategar",
   "license": "MIT",
+  "icon": "assets/icon.png",
   "engines": {
     "vscode": "^1.85.0"
   },
   "categories": [
+    "Programming Languages",
+    "Visualization",
     "Other"
+  ],
+  "keywords": [
+    "api",
+    "routes",
+    "rest",
+    "endpoint",
+    "route-peek",
+    "static-analysis",
+    "express",
+    "fastify",
+    "hono",
+    "fiber"
   ],
   "repository": {
     "type": "git",
     "url": "https://github.com/eldivategar/route-peek"
   },
+  "homepage": "https://github.com/eldivategar/route-peek#readme",
+  "bugs": {
+    "url": "https://github.com/eldivategar/route-peek/issues"
+  },
   "main": "./dist/extension.js",
   "activationEvents": [
-    "onStartupFinished"
+    "onView:routePeek.routesView"
   ],
-  "contributes": {},
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "routePeek",
+          "title": "Route Peek",
+          "icon": "$(symbol-interface)"
+        }
+      ]
+    },
+    "views": {
+      "routePeek": [
+        {
+          "id": "routePeek.routesView",
+          "name": "Routes"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "routePeek.scanWorkspace",
+        "title": "Route Peek: Scan Workspace",
+        "icon": "$(search)"
+      },
+      {
+        "command": "routePeek.refreshRoutes",
+        "title": "Route Peek: Refresh Routes",
+        "icon": "$(refresh)"
+      },
+      {
+        "command": "routePeek.searchRoutes",
+        "title": "Route Peek: Search Routes",
+        "icon": "$(filter)"
+      },
+      {
+        "command": "routePeek.clearSearch",
+        "title": "Route Peek: Clear Route Filter",
+        "icon": "$(clear-all)"
+      },
+      {
+        "command": "routePeek.showRouteDetails",
+        "title": "Route Peek: Show Route Details",
+        "icon": "$(info)"
+      },
+      {
+        "command": "routePeek.copyRoute",
+        "title": "Route Peek: Copy Route",
+        "icon": "$(copy)"
+      },
+      {
+        "command": "routePeek.copyCurl",
+        "title": "Route Peek: Copy cURL",
+        "icon": "$(terminal)"
+      },
+      {
+        "command": "routePeek.openRouteSource",
+        "title": "Route Peek: Open Route Source",
+        "icon": "$(go-to-file)"
+      }
+    ],
+    "configuration": {
+      "title": "Route Peek",
+      "properties": {
+        "routePeek.baseUrl": {
+          "type": "string",
+          "default": "http://localhost:3000",
+          "description": "Base URL used when generating cURL commands."
+        }
+      }
+    },
+    "menus": {
+      "view/title": [
+        {
+          "command": "routePeek.searchRoutes",
+          "when": "view == routePeek.routesView",
+          "group": "navigation@1"
+        },
+        {
+          "command": "routePeek.clearSearch",
+          "when": "view == routePeek.routesView && routePeek.hasFilter",
+          "group": "navigation@2"
+        },
+        {
+          "command": "routePeek.refreshRoutes",
+          "when": "view == routePeek.routesView",
+          "group": "navigation@3"
+        },
+        {
+          "command": "routePeek.scanWorkspace",
+          "when": "view == routePeek.routesView",
+          "group": "navigation@4"
+        }
+      ],
+      "view/item/context": [
+        {
+          "command": "routePeek.openRouteSource",
+          "when": "view == routePeek.routesView && viewItem == route",
+          "group": "inline"
+        },
+        {
+          "command": "routePeek.copyRoute",
+          "when": "view == routePeek.routesView && viewItem == route",
+          "group": "1_actions@1"
+        },
+        {
+          "command": "routePeek.copyCurl",
+          "when": "view == routePeek.routesView && viewItem == route",
+          "group": "1_actions@2"
+        },
+        {
+          "command": "routePeek.showRouteDetails",
+          "when": "view == routePeek.routesView && viewItem == route",
+          "group": "1_actions@3"
+        }
+      ]
+    }
+  },
   "scripts": {
     "build": "esbuild src/extension.ts --bundle --outfile=dist/extension.js --external:vscode --format=cjs --platform=node --target=node18 --minify",
     "watch": "esbuild src/extension.ts --bundle --outfile=dist/extension.js --external:vscode --format=cjs --platform=node --target=node18 --sourcemap --watch",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "lint": "eslint src tests",
-    "package": "vsce package --no-dependencies"
+    "package": "vsce package --no-dependencies",
+    "validate:vsix": "node scripts/validate-vsix.mjs",
+    "package:validate": "npm run package && npm run validate:vsix"
   },
   "devDependencies": {
     "@eslint/js": "^9.0.0",
@@ -38,5 +175,9 @@
     "typescript": "^5.5.0",
     "typescript-eslint": "^8.0.0",
     "vitest": "^2.0.0"
+  },
+  "dependencies": {
+    "@lezer/common": "^1.5.2",
+    "@lezer/go": "^1.0.1"
   }
 }

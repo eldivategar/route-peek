@@ -1,0 +1,11 @@
+[
+  {
+    "id": "express:GET:/valid:valid.ts:6",
+    "method": "GET",
+    "path": "/valid",
+    "framework": "express",
+    "confidence": "high",
+    "file": "valid.ts",
+    "line": 6
+  }
+]

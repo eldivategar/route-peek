@@ -1,0 +1,20 @@
+[
+  {
+    "id": "express:GET:/api/items:app.ts:7",
+    "method": "GET",
+    "path": "/api/items",
+    "framework": "express",
+    "confidence": "high",
+    "file": "app.ts",
+    "line": 7
+  },
+  {
+    "id": "express:POST:/api/items:app.ts:8",
+    "method": "POST",
+    "path": "/api/items",
+    "framework": "express",
+    "confidence": "high",
+    "file": "app.ts",
+    "line": 8
+  }
+]

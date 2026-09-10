@@ -1,0 +1,50 @@
+name: Publish to Open VSX
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: 'Type PUBLISH to confirm publishing to Open VSX'
+        required: true
+        type: string
+        default: 'CANCEL'
+
+permissions:
+  contents: read
+
+jobs:
+  publish-openvsx:
+    name: Publish VSIX to Open VSX
+    runs-on: ubuntu-latest
+    if: github.event.inputs.confirm == 'PUBLISH'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Quality Suite
+        run: |
+          npm run lint
+          npm run typecheck
+          npm test
+          npm run build
+          npm run package:validate
+
+      - name: Publish to Open VSX Registry
+        env:
+          OVSX_PAT: ${{ secrets.OVSX_PAT }}
+        run: |
+          if [ -z "$OVSX_PAT" ]; then
+            echo "::error::OVSX_PAT secret is missing or empty. Configure this in GitHub repository secrets."
+            exit 1
+          fi
+          npx ovsx publish route-peek-*.vsix -p "$OVSX_PAT"

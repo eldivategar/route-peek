@@ -1,0 +1,38 @@
+[
+  {
+    "id": "fastify:POST:/api/auth/login:src/routes/auth.ts:2",
+    "method": "POST",
+    "path": "/api/auth/login",
+    "framework": "fastify",
+    "confidence": "high",
+    "file": "src/routes/auth.ts",
+    "line": 2
+  },
+  {
+    "id": "fastify:POST:/api/auth/register:src/routes/auth.ts:3",
+    "method": "POST",
+    "path": "/api/auth/register",
+    "framework": "fastify",
+    "confidence": "high",
+    "file": "src/routes/auth.ts",
+    "line": 3
+  },
+  {
+    "id": "fastify:GET:/api/users/:id:src/routes/users.ts:5",
+    "method": "GET",
+    "path": "/api/users/:id",
+    "framework": "fastify",
+    "confidence": "high",
+    "file": "src/routes/users.ts",
+    "line": 5
+  },
+  {
+    "id": "fastify:GET:/api/users/profile:src/routes/users.ts:4",
+    "method": "GET",
+    "path": "/api/users/profile",
+    "framework": "fastify",
+    "confidence": "high",
+    "file": "src/routes/users.ts",
+    "line": 4
+  }
+]

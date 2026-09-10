@@ -1,0 +1,26 @@
+[
+  {
+    "id": "fiber:GET:/dashboard:main.go:12",
+    "framework": "fiber",
+    "method": "GET",
+    "path": "/dashboard",
+    "confidence": "high",
+    "source": {
+      "file": "main.go",
+      "line": 12,
+      "column": 2
+    }
+  },
+  {
+    "id": "fiber:GET:/health:main.go:11",
+    "framework": "fiber",
+    "method": "GET",
+    "path": "/health",
+    "confidence": "high",
+    "source": {
+      "file": "main.go",
+      "line": 11,
+      "column": 2
+    }
+  }
+]

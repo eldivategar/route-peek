@@ -1,0 +1,6 @@
+{
+  "name": "hono-dynamic",
+  "dependencies": {
+    "hono": "^4.0.0"
+  }
+}

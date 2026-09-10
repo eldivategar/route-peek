@@ -1,0 +1,137 @@
+[
+  {
+    "id": "fastify:DELETE:/all-endpoint:src/index.ts:33",
+    "method": "DELETE",
+    "path": "/all-endpoint",
+    "framework": "fastify",
+    "confidence": "high",
+    "file": "src/index.ts",
+    "line": 33
+  },
+  {
+    "id": "fastify:GET:/all-endpoint:src/index.ts:33",
+    "method": "GET",
+    "path": "/all-endpoint",
+    "framework": "fastify",
+    "confidence": "high",
+    "file": "src/index.ts",
+    "line": 33
+  },
+  {
+    "id": "fastify:HEAD:/all-endpoint:src/index.ts:33",
+    "method": "HEAD",
+    "path": "/all-endpoint",
+    "framework": "fastify",
+    "confidence": "high",
+    "file": "src/index.ts",
+    "line": 33
+  },
+  {
+    "id": "fastify:OPTIONS:/all-endpoint:src/index.ts:33",
+    "method": "OPTIONS",
+    "path": "/all-endpoint",
+    "framework": "fastify",
+    "confidence": "high",
+    "file": "src/index.ts",
+    "line": 33
+  },
+  {
+    "id": "fastify:PATCH:/all-endpoint:src/index.ts:33",
+    "method": "PATCH",
+    "path": "/all-endpoint",
+    "framework": "fastify",
+    "confidence": "high",
+    "file": "src/index.ts",
+    "line": 33
+  },
+  {
+    "id": "fastify:POST:/all-endpoint:src/index.ts:33",
+    "method": "POST",
+    "path": "/all-endpoint",
+    "framework": "fastify",
+    "confidence": "high",
+    "file": "src/index.ts",
+    "line": 33
+  },
+  {
+    "id": "fastify:PUT:/all-endpoint:src/index.ts:33",
+    "method": "PUT",
+    "path": "/all-endpoint",
+    "framework": "fastify",
+    "confidence": "high",
+    "file": "src/index.ts",
+    "line": 33
+  },
+  {
+    "id": "fastify:TRACE:/all-endpoint:src/index.ts:33",
+    "method": "TRACE",
+    "path": "/all-endpoint",
+    "framework": "fastify",
+    "confidence": "high",
+    "file": "src/index.ts",
+    "line": 33
+  },
+  {
+    "id": "fastify:DELETE:/users/:id:src/index.ts:21",
+    "method": "DELETE",
+    "path": "/users/:id",
+    "framework": "fastify",
+    "confidence": "high",
+    "file": "src/index.ts",
+    "line": 21
+  },
+  {
+    "id": "fastify:GET:/users:src/index.ts:5",
+    "method": "GET",
+    "path": "/users",
+    "framework": "fastify",
+    "confidence": "high",
+    "file": "src/index.ts",
+    "line": 5
+  },
+  {
+    "id": "fastify:HEAD:/users:src/index.ts:25",
+    "method": "HEAD",
+    "path": "/users",
+    "framework": "fastify",
+    "confidence": "high",
+    "file": "src/index.ts",
+    "line": 25
+  },
+  {
+    "id": "fastify:OPTIONS:/users:src/index.ts:29",
+    "method": "OPTIONS",
+    "path": "/users",
+    "framework": "fastify",
+    "confidence": "high",
+    "file": "src/index.ts",
+    "line": 29
+  },
+  {
+    "id": "fastify:PATCH:/users/:id:src/index.ts:17",
+    "method": "PATCH",
+    "path": "/users/:id",
+    "framework": "fastify",
+    "confidence": "high",
+    "file": "src/index.ts",
+    "line": 17
+  },
+  {
+    "id": "fastify:POST:/users:src/index.ts:9",
+    "method": "POST",
+    "path": "/users",
+    "framework": "fastify",
+    "confidence": "high",
+    "file": "src/index.ts",
+    "line": 9
+  },
+  {
+    "id": "fastify:PUT:/users/:id:src/index.ts:13",
+    "method": "PUT",
+    "path": "/users/:id",
+    "framework": "fastify",
+    "confidence": "high",
+    "file": "src/index.ts",
+    "line": 13
+  }
+]

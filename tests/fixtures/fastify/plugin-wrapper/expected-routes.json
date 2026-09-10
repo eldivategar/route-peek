@@ -1,0 +1,20 @@
+[
+  {
+    "id": "fastify:GET:/users/profile:src/plugins/users.ts:5",
+    "method": "GET",
+    "path": "/users/profile",
+    "framework": "fastify",
+    "confidence": "high",
+    "file": "src/plugins/users.ts",
+    "line": 5
+  },
+  {
+    "id": "fastify:POST:/users/profile:src/plugins/users.ts:6",
+    "method": "POST",
+    "path": "/users/profile",
+    "framework": "fastify",
+    "confidence": "high",
+    "file": "src/plugins/users.ts",
+    "line": 6
+  }
+]

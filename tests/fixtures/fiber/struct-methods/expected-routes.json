@@ -1,0 +1,62 @@
+[
+  {
+    "id": "fiber:GET:/:main.go:22",
+    "framework": "fiber",
+    "method": "GET",
+    "path": "/",
+    "confidence": "high",
+    "source": {
+      "file": "main.go",
+      "line": 22,
+      "column": 2
+    }
+  },
+  {
+    "id": "fiber:GET:/api/v1/helper:main.go:42",
+    "framework": "fiber",
+    "method": "GET",
+    "path": "/api/v1/helper",
+    "confidence": "high",
+    "source": {
+      "file": "main.go",
+      "line": 42,
+      "column": 2
+    }
+  },
+  {
+    "id": "fiber:POST:/api/v1/users:main.go:34",
+    "framework": "fiber",
+    "method": "POST",
+    "path": "/api/v1/users",
+    "confidence": "high",
+    "source": {
+      "file": "main.go",
+      "line": 34,
+      "column": 2
+    }
+  },
+  {
+    "id": "fiber:POST:/api/v1/users/search:main.go:31",
+    "framework": "fiber",
+    "method": "POST",
+    "path": "/api/v1/users/search",
+    "confidence": "high",
+    "source": {
+      "file": "main.go",
+      "line": 31,
+      "column": 2
+    }
+  },
+  {
+    "id": "fiber:GET:/health/live:main.go:19",
+    "framework": "fiber",
+    "method": "GET",
+    "path": "/health/live",
+    "confidence": "high",
+    "source": {
+      "file": "main.go",
+      "line": 19,
+      "column": 2
+    }
+  }
+]

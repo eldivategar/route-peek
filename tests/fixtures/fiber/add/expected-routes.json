@@ -1,0 +1,38 @@
+[
+  {
+    "id": "fiber:GET:/multi:main.go:10",
+    "framework": "fiber",
+    "method": "GET",
+    "path": "/multi",
+    "confidence": "high",
+    "source": {
+      "file": "main.go",
+      "line": 10,
+      "column": 2
+    }
+  },
+  {
+    "id": "fiber:POST:/multi:main.go:10",
+    "framework": "fiber",
+    "method": "POST",
+    "path": "/multi",
+    "confidence": "high",
+    "source": {
+      "file": "main.go",
+      "line": 10,
+      "column": 2
+    }
+  },
+  {
+    "id": "fiber:DELETE:/single:main.go:11",
+    "framework": "fiber",
+    "method": "DELETE",
+    "path": "/single",
+    "confidence": "high",
+    "source": {
+      "file": "main.go",
+      "line": 11,
+      "column": 2
+    }
+  }
+]

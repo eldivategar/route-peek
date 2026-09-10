@@ -1,0 +1,14 @@
+[
+  {
+    "id": "fiber:GET:/<dynamic>:main.go:10",
+    "framework": "fiber",
+    "method": "GET",
+    "path": "/<dynamic>",
+    "confidence": "low",
+    "source": {
+      "file": "main.go",
+      "line": 10,
+      "column": 2
+    }
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "name": "fastify-plugin-only",
+  "dependencies": {
+    "@fastify/cors": "^8.0.0"
+  }
+}

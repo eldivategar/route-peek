@@ -1,0 +1,6 @@
+{
+  "name": "hono-invalid",
+  "dependencies": {
+    "hono": "^4.0.0"
+  }
+}

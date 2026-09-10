@@ -1,0 +1,98 @@
+[
+  {
+    "id": "fiber:GET:/users:main.go:10",
+    "framework": "fiber",
+    "method": "GET",
+    "path": "/users",
+    "confidence": "high",
+    "source": {
+      "file": "main.go",
+      "line": 10,
+      "column": 2
+    }
+  },
+  {
+    "id": "fiber:HEAD:/users:main.go:15",
+    "framework": "fiber",
+    "method": "HEAD",
+    "path": "/users",
+    "confidence": "high",
+    "source": {
+      "file": "main.go",
+      "line": 15,
+      "column": 2
+    }
+  },
+  {
+    "id": "fiber:OPTIONS:/users:main.go:16",
+    "framework": "fiber",
+    "method": "OPTIONS",
+    "path": "/users",
+    "confidence": "high",
+    "source": {
+      "file": "main.go",
+      "line": 16,
+      "column": 2
+    }
+  },
+  {
+    "id": "fiber:POST:/users:main.go:11",
+    "framework": "fiber",
+    "method": "POST",
+    "path": "/users",
+    "confidence": "high",
+    "source": {
+      "file": "main.go",
+      "line": 11,
+      "column": 2
+    }
+  },
+  {
+    "id": "fiber:TRACE:/users:main.go:17",
+    "framework": "fiber",
+    "method": "TRACE",
+    "path": "/users",
+    "confidence": "high",
+    "source": {
+      "file": "main.go",
+      "line": 17,
+      "column": 2
+    }
+  },
+  {
+    "id": "fiber:DELETE:/users/:id:main.go:14",
+    "framework": "fiber",
+    "method": "DELETE",
+    "path": "/users/:id",
+    "confidence": "high",
+    "source": {
+      "file": "main.go",
+      "line": 14,
+      "column": 2
+    }
+  },
+  {
+    "id": "fiber:PATCH:/users/:id:main.go:13",
+    "framework": "fiber",
+    "method": "PATCH",
+    "path": "/users/:id",
+    "confidence": "high",
+    "source": {
+      "file": "main.go",
+      "line": 13,
+      "column": 2
+    }
+  },
+  {
+    "id": "fiber:PUT:/users/:id:main.go:12",
+    "framework": "fiber",
+    "method": "PUT",
+    "path": "/users/:id",
+    "confidence": "high",
+    "source": {
+      "file": "main.go",
+      "line": 12,
+      "column": 2
+    }
+  }
+]

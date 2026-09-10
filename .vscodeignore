@@ -9,6 +9,11 @@ eslint.config.mjs
 .gitignore
 .eslintrc*
 *.map
+dist/*.map
 *.ts
-!dist/**
-
+AGENTS.md
+RULES.md
+TASKS.md
+PRD.md
+.github/**
+scripts/**

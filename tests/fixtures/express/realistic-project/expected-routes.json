@@ -1,0 +1,65 @@
+[
+  {
+    "id": "express:POST:/api/auth/login:src/routes/auth.ts:7",
+    "method": "POST",
+    "path": "/api/auth/login",
+    "framework": "express",
+    "confidence": "high",
+    "file": "src/routes/auth.ts",
+    "line": 7
+  },
+  {
+    "id": "express:GET:/api/auth/profile:src/routes/auth.ts:9",
+    "method": "GET",
+    "path": "/api/auth/profile",
+    "framework": "express",
+    "confidence": "high",
+    "file": "src/routes/auth.ts",
+    "line": 9
+  },
+  {
+    "id": "express:POST:/api/auth/register:src/routes/auth.ts:8",
+    "method": "POST",
+    "path": "/api/auth/register",
+    "framework": "express",
+    "confidence": "high",
+    "file": "src/routes/auth.ts",
+    "line": 8
+  },
+  {
+    "id": "express:GET:/api/users:src/routes/users.ts:7",
+    "method": "GET",
+    "path": "/api/users",
+    "framework": "express",
+    "confidence": "high",
+    "file": "src/routes/users.ts",
+    "line": 7
+  },
+  {
+    "id": "express:POST:/api/users:src/routes/users.ts:8",
+    "method": "POST",
+    "path": "/api/users",
+    "framework": "express",
+    "confidence": "high",
+    "file": "src/routes/users.ts",
+    "line": 8
+  },
+  {
+    "id": "express:DELETE:/api/users/:id:src/routes/users.ts:10",
+    "method": "DELETE",
+    "path": "/api/users/:id",
+    "framework": "express",
+    "confidence": "high",
+    "file": "src/routes/users.ts",
+    "line": 10
+  },
+  {
+    "id": "express:GET:/api/users/:id:src/routes/users.ts:9",
+    "method": "GET",
+    "path": "/api/users/:id",
+    "framework": "express",
+    "confidence": "high",
+    "file": "src/routes/users.ts",
+    "line": 9
+  }
+]

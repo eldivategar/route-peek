@@ -1,0 +1,14 @@
+[
+  {
+    "id": "fiber:GET:/real:routes.go:8",
+    "framework": "fiber",
+    "method": "GET",
+    "path": "/real",
+    "confidence": "high",
+    "source": {
+      "file": "routes.go",
+      "line": 8,
+      "column": 2
+    }
+  }
+]

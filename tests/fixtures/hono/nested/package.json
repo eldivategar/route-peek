@@ -1,0 +1,6 @@
+{
+  "name": "hono-nested",
+  "dependencies": {
+    "hono": "^4.0.0"
+  }
+}
